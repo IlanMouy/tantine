@@ -1,18 +1,71 @@
-nav{
+/*nav{
 	display: flex;
 	margin-right:0%;
-	background-color: Crimson;
-	
+	width: 80%;
+	height:80%;
+	font-size: 20px;*/
 
+}
+nav {
+  float: right;
+  display: none;
+
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+}
+
+#menutoggle {
+  color: white;
+  float: right;
+  padding: 10%;
+  }
+
+@media only screen and (max-width: 900px) {
+  .nav-visible {
+    display: block;
+    background-color: rgba(65, 181, 90, 0.8);
+    width: 90%;
+    font-size: 1.2em;
+    height: 10%
+    color: white;
+    margin-top: 1%;
+  }
+  .menutoggle {
+  position: absolute;
+}
+}
+
+@media screen and (min-width: 900px) {
+  .menutoggle {
+    display: none;
+  }
+}
+
+.titre{
+	 color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 2px yellow;
+  text-align: center;
+  padding-top: 2%;
 }
 
 img{
-	
+margin-left: 10%;
+	width: 80%;
+	height:80%;
+
 }
 
-.bannier
-{display:flex;
-
+.banner {
+  width: 100%;
+  height: 80%;
+  background-image: url(../images/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 	
 	
 }
@@ -20,14 +73,11 @@ img{
 .menu{
 	display: flex;
 	align-items:space-around;
-	
-}
-
-main{
 	width: 80%;
 	height:80%;
-
+	font-size: 1.2em;
 }
+
 h1 {
 	text-align: center;
 	color:Crimson;
@@ -36,33 +86,44 @@ h1 {
 }
 
 .story{
-	
+
+	width: 80%;
+	max-width: 80%
 	text-align:center;
+	font-size: 1.2em;
+
 
 }
 
 .recette{
-	
+	width: 80%;
+	max-width: 80%
+	font-size: 20px;
 
 }
 
 
 .prepa{
-    
+    width: 80%;
+	max-width: 80%
+	font-size: 20px;
 }
 
 h3 {
 	color:Crimson;
-	font-family:'Sedgwick Ave', cursive;	
+	font-family:'Sedgwick Ave', cursive;
+	font-size: 20px;
 }	
 
 p ,li{
 	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
 }
 
 blockquote{
 	text-align:center;
-	font-family:'Sedgwick Ave', cursive;	
+	font-family:'Sedgwick Ave', cursive;
+	font-size: 1.2em;	
 	color:ForestGreen;
 }
 
@@ -71,5 +132,8 @@ background-color: Crimson;
 background-size: 40px;
 height:50px;
 font-family: 'Dosis', sans-serif;
+font-size: 20px;
+text-align: center;
 color: khaki;
 }
+

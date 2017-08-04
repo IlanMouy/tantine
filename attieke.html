@@ -2,24 +2,23 @@
 
  <html>
      <head>
-     <title>Les Recettes de Tantine | Alloco</title>
+     <title>Les Recettes de Tantine |Attieke</title>
            <meta charset="utf-8">
            <meta name="viewport" content="width=device-width, initial-scale=1">
            <script src="https://use.fontawesome.com/cc14eff87a.js"></script>
            <link href="css/style.css" type="text/css" rel="stylesheet">
            <link href="https://fonts.googleapis.com/css?family=Dosis|Sedgwick+Ave" rel="stylesheet">
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+ <script src="https://use.fontawesome.com/3c4367bcd0.js"></script>
      </head>
      
  <body>
- 	<contener>
+ 
          <header> 
          <div class="banner">
-      <nav class="menu">
-      	<div>
-      	<img class="bannier" src="images/unnamed.jpg">
-      </div>
+<h1 class="titre"> Les Recettes de Tantines </h1>
+<i class="fa fa-bars" aria-hidden="true" id="menutoggle" class="menutoggle"></i>
+        <nav>
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="attieke.html">Attieke-Plantain</a></li>
@@ -33,7 +32,7 @@
 
 <h1> Attiéké Banane Plantain </h1>
 
-<img src="images/attieke.jpg">
+
 <div class="story">
  <h3>Origine attieke</h3>
  <p> 
@@ -91,7 +90,11 @@ Servir son plat avec le poisson, l'attiéké, un peu de sauce et les bananes pla
 
 
 <footer><p>Les recettes de tantine 2007 </p></footer>
-
-</contener>
+<script>
+        $("#menutoggle").click(function() {
+            $("nav").toggleClass("nav-visible");
+})
+   ;
+    </script>
     </body>
  </html>

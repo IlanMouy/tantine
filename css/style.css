@@ -1,0 +1,75 @@
+nav{
+	display: flex;
+	margin-right:0%;
+	background-color: Crimson;
+	
+
+}
+
+img{
+	
+}
+
+.bannier
+{display:flex;
+
+	
+	
+}
+
+.menu{
+	display: flex;
+	align-items:space-around;
+	
+}
+
+main{
+	width: 80%;
+	height:80%;
+
+}
+h1 {
+	text-align: center;
+	color:Crimson;
+	font-family:'Sedgwick Ave', cursive;
+	font-size: 40px;
+}
+
+.story{
+	
+	text-align:center;
+
+}
+
+.recette{
+	
+
+}
+
+
+.prepa{
+    
+}
+
+h3 {
+	color:Crimson;
+	font-family:'Sedgwick Ave', cursive;	
+}	
+
+p ,li{
+	font-family: 'Dosis', sans-serif;
+}
+
+blockquote{
+	text-align:center;
+	font-family:'Sedgwick Ave', cursive;	
+	color:ForestGreen;
+}
+
+footer p{
+background-color: Crimson;
+background-size: 40px;
+height:50px;
+font-family: 'Dosis', sans-serif;
+color: khaki;
+}
